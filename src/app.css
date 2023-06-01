@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333;
+  background-color: #eee;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body.dark-mode {
+  color: #eee;
+  background-color: #222;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* TODO: remove code below */
+* {
+  box-sizing: border-box;
+}
+
+*:hover {
+  outline: 1px dashed grey;
+}
